@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>My Portfolio</title>
-
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
 
 
@@ -17,6 +17,11 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
+
+	<div class="loader">
+		<div class="inner"></div>
+	</div>
+
 
 	<div id="slides">
 
@@ -46,7 +51,7 @@
 	</div>
 	<!-- Navigation -->
 	<nav id="navigation" class="navbar navbar-expand-lg ">
-	  <a class="navbar-brand" href="#">Navbar</a>
+	  <a class="navbar-brand" href="#">Rohan Ganguly</a>
 
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 	    <span class="navbar-toggler-icon"></span>
@@ -55,17 +60,17 @@
 	  <div class="collapse navbar-collapse" id="navbarNav">
 	    <ul class="navbar-nav">
 	      <li class="nav-item active">
-	        <a class="nav-link" href="#stats">Stats <span class="sr-only">(current)</span></a>
+	        <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link" href="#">Features</a>
+	        <a class="nav-link" href="#stats">Stats</a>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link" href="#">Pricing</a>
+	        <a class="nav-link" href="#portfolio">Portfolio</a>
 	      </li>
-	      <li class="nav-item">
+	      <!-- <li class="nav-item">
 	        <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-	      </li>
+	      </li> -->
 	    </ul>
 	  </div>
 </nav>
@@ -270,7 +275,7 @@
 				<div class="items-container">
 					<ul class="items">
 						<!-- Folio items -->
-						<li onclick="" class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+						<li onclick="" class="apps col-xs-6 col-sm-3 col-md-2 col-lg-3">
 							<div class="item">
 								<img src="./images/portfolio/thumbnails/chat.PNG">
 								<div class="icons">
@@ -286,7 +291,7 @@
 								<div class="imageOverlay"></div>
 							</div>
 						</li>
-							<li onclick="" class="websites col-xs-6 col-sm-4 col-md-3 col-lg-3">
+							<li onclick="" class="websites col-xs-6 col-sm-3 col-md-2 col-lg-3">
 							<div class="item">
 								<img src="./images/portfolio/thumbnails/face.PNG">
 								<div class="icons">
@@ -302,7 +307,7 @@
 							</div>
 						</li>
 
-						<li onclick="" class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+						<li onclick="" class="apps col-xs-6 col-sm-3 col-md-2 col-lg-3">
 							<div class="item">
 								<img src="./images/portfolio/thumbnails/geoninja.PNG">
 								<div class="icons">
@@ -310,15 +315,15 @@
 										<i class="fa fa-link"></i>
 
 									</a>
-									<!-- <a href="https://github.com/Darktangent/Tx-Chat-App" target="_blank" title="Go to project repo page" class="projectLink" data-fancybox data-caption="Chat application">
+									<a href="https://github.com/Darktangent/Tx-Chat-App" target="_blank" title="Go to project repo page" class="projectLink" data-fancybox data-caption="Chat application">
 										<i class="fa fa-search"></i>
 
-									</a> -->
+									</a>
 								</div>
 								<div class="imageOverlay"></div>
 							</div>
 						</li>
-						<li onclick="" class="websites col-xs-6 col-sm-4 col-md-3 col-lg-3">
+						<li onclick="" class="websites col-xs-6 col-sm-3 col-md-2 col-lg-3">
 							<div class="item">
 								<img src="./images/portfolio/thumbnails/todos.PNG">
 								<div class="icons">
@@ -334,11 +339,11 @@
 								<div class="imageOverlay"></div>
 							</div>
 						</li>
-						<li onclick="" class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+						<li onclick="" class="apps col-xs-6 col-sm-3 col-md-2 col-lg-3">
 							<div class="item">
 								<img src="./images/portfolio/thumbnails/port.PNG">
 								<div class="icons">
-									<a href="https://tx-chat-app.firebaseapp.com/" target="_blank" title="Go to project page" class="openButton">
+									<a href="https://sleepy-river-62384.herokuapp.com/" target="_blank" title="Go to project page" class="openButton">
 										<i class="fa fa-link"></i>
 
 									</a>
@@ -350,9 +355,10 @@
 								<div class="imageOverlay"></div>
 							</div>
 						</li>
-						<li onclick="" class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+
+						<li onclick="" class="apps col-xs-6 col-sm-3 col-md-2 col-lg-3">
 							<div class="item">
-								<img src="./images/portfolio/thumbnails/fire.png">
+								<img src="./images/portfolio/thumbnails/portfolio.png">
 								<div class="icons">
 									<a href="https://tx-chat-app.firebaseapp.com/" target="_blank" title="Go to project page" class="openButton">
 										<i class="fa fa-link"></i>
