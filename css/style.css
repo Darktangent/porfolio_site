@@ -205,16 +205,28 @@ color:#fff;
 
 .items-container {
 	width: 100%;
+
 }
 
 
 .items li img {
-	width: 100%;
+	width: 80%;
+	margin: 20px auto;
 	-webkit-transition: all 0.2s linear, 1s;
     -moz-transition: all 0.2s linear, 1s;
     -o-transition: all 0.2s linear, 1s;
     -ms-transition: all 0.2s linear, 1s;
     -transition: all 0.2s linear, 1s;
+		height:25rem;
+}
+.item{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+.img{
+
 }
 
 .items .item {
