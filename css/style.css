@@ -1,8 +1,8 @@
 body {
 	font-size: 14px;
-    color: #333;
-    background-color: #fff;
-    letter-spacing: 1px;
+	color: #333;
+	background-color: #fff;
+	letter-spacing: 1px;
 }
 
 .overlay {
@@ -37,19 +37,19 @@ body {
 
 .titleMessage {
 	position: absolute;
-    width: 100%;
-    height: 250px;
-    top: 50%;
-    z-index: 5;
-    text-align: center;
-    margin-top: -125px;
+	width: 100%;
+	height: 250px;
+	top: 50%;
+	z-index: 5;
+	text-align: center;
+	margin-top: -125px;
 }
 
 .titleMessage .heading p {
 	color: #fff;
-    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
-    font-weight: 100;
-    letter-spacing: 7px;
+	text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+	font-weight: 100;
+	letter-spacing: 7px;
 }
 
 .titleMessage .heading .main {
@@ -81,33 +81,32 @@ body {
 
 .chart {
 	position: relative;
-    width: 152px;
-    height: 152px;
-    display: inline-block;
-    text-align: center;
+	width: 152px;
+	height: 152px;
+	display: inline-block;
+	text-align: center;
 }
 
 .chart canvas {
 	position: absolute;
-    left: 0;
-    top: 0;
+	left: 0;
+	top: 0;
 }
 
 .chart .percent {
 	color: #000;
-    line-height: 152px;
-    display: inline-block;
-    font-size: 35px;
+	line-height: 152px;
+	display: inline-block;
+	font-size: 35px;
 }
 
 .chart .percent:after {
 	content: '%';
 }
 
-
 .squareItem {
 	margin-top: 30px;
-    position: relative;
+	position: relative;
 }
 
 .squareInnerContainer {
@@ -127,15 +126,13 @@ body {
 	border-bottom: 2px solid #444;
 }
 
-
 .squareInnerContainer:before {
 	right: 0px;
 }
 
 .squareInnerContainer:after {
-	left: 0px
+	left: 0px;
 }
-
 
 .squareContent h2 {
 	font-size: 56px;
@@ -152,22 +149,22 @@ body {
 
 .squareIcon {
 	position: absolute;
-    left: 50%;
-    top: -30px;
-    width: 40%;
-    height: 60px;
-    font-size: 45px;
-    margin-left: -20%;
-    color: #444;
+	left: 50%;
+	top: -30px;
+	width: 40%;
+	height: 60px;
+	font-size: 45px;
+	margin-left: -20%;
+	color: #444;
 }
 
 .contactButton {
 	color: #fff;
-    padding: 15px 20px;
-    display: inline-block;
-    margin-top: 20px;
-    border: 1px solid #fff;
-    border-radius: 2px;
+	padding: 15px 20px;
+	display: inline-block;
+	margin-top: 20px;
+	border: 1px solid #fff;
+	border-radius: 2px;
 }
 
 .contactButton:hover {
@@ -185,11 +182,11 @@ body {
 
 .filter li {
 	display: inline-block;
-	padding: 5px
+	padding: 5px;
 }
 
 .filter .current {
-	background-color: #e74c3c;;
+	background-color: #e74c3c;
 	border-color: #e74c3c;
 	color: #fff;
 }
@@ -214,14 +211,18 @@ body {
 	width: 100%;
 }
 
-
 .items li img {
 	width: 100%;
 	-webkit-transition: all 0.2s linear, 1s;
-    -moz-transition: all 0.2s linear, 1s;
-    -o-transition: all 0.2s linear, 1s;
-    -ms-transition: all 0.2s linear, 1s;
-    -transition: all 0.2s linear, 1s;
+	-moz-transition: all 0.2s linear, 1s;
+	-o-transition: all 0.2s linear, 1s;
+	-ms-transition: all 0.2s linear, 1s;
+	-transition: all 0.2s linear, 1s;
+}
+.item img {
+	height: 350px;
+	width: 250px;
+	margin: 1.5rem;
 }
 
 .items .item {
@@ -232,51 +233,49 @@ body {
 
 .items .icons {
 	position: absolute;
-    width: 90px;
-    height: 40px;
-    left: 50%;
-    top: 50%;
-    margin: -20px auto 0 -47px;
-    text-align: center;
-    z-index: 3;
+	width: 90px;
+	height: 40px;
+	left: 50%;
+	top: 50%;
+	margin: -20px auto 0 -47px;
+	text-align: center;
+	z-index: 3;
 }
 
 .items .icons i {
 	color: #fff;
-    font-size: 20px;
-    margin-top: 9px;
+	font-size: 20px;
+	margin-top: 9px;
 }
 
 .items a {
 	width: 40px;
-    height: 40px;
-    background-color: #e74c3c;
-    position: relative;
-    display: inline-block;
+	height: 40px;
+	background-color: #e74c3c;
+	position: relative;
+	display: inline-block;
 
-
-    -webkit-transition: all 0.2s linear, 0.2s;
-    -moz-transition: all 0.2s linear, 0.2s;
-    -o-transition: all 0.2s linear, 0.2s;
-    -ms-transition: all 0.2s linear, 0.2s;
-    -transition: all 0.2s linear, 0.2s;
-
+	-webkit-transition: all 0.2s linear, 0.2s;
+	-moz-transition: all 0.2s linear, 0.2s;
+	-o-transition: all 0.2s linear, 0.2s;
+	-ms-transition: all 0.2s linear, 0.2s;
+	-transition: all 0.2s linear, 0.2s;
 }
 
 .items .imageOverlay {
 	width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    opacity: 0;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	opacity: 0;
 
-    -webkit-transition: all 0.2s linear, 1s;
-    -moz-transition: all 0.2s linear, 1s;
-    -o-transition: all 0.2s linear, 1s;
-    -ms-transition: all 0.2s linear, 1s;
-    -transition: all 0.2s linear, 1s;
+	-webkit-transition: all 0.2s linear, 1s;
+	-moz-transition: all 0.2s linear, 1s;
+	-o-transition: all 0.2s linear, 1s;
+	-ms-transition: all 0.2s linear, 1s;
+	-transition: all 0.2s linear, 1s;
 }
 
 .items .item:hover .imageOverlay {
@@ -303,10 +302,10 @@ body {
 
 .items .item:hover img {
 	-webkit-transform: scale(1.05, 1.05);
-    -moz-transform: scale(1.05, 1.05);
-    -o-transform: scale(1.05, 1.05);
-    -ms-transform: scale(1.05, 1.05);
-    -transform: scale(1.05, 1.05);
+	-moz-transform: scale(1.05, 1.05);
+	-o-transform: scale(1.05, 1.05);
+	-ms-transform: scale(1.05, 1.05);
+	-transform: scale(1.05, 1.05);
 }
 
 .items {
@@ -325,9 +324,9 @@ body {
 
 #navigation {
 	background-color: #e74c3c;
-    padding: 20px 10px;
-    z-index: 100;
-    width: 100%;
+	padding: 20px 10px;
+	z-index: 100;
+	width: 100%;
 }
 
 #navigation li {
@@ -368,19 +367,3 @@ body {
 	height: 100%;
 	background: url(../images/831.gif) center center no-repeat;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
